@@ -1,7 +1,7 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
+import { TbSubmarine } from 'react-icons/tb';
 import corpcommentImg from '@/public/corpcomment.png';
 import rmtdevImg from '@/public/rmtdev.png';
 import wordanalyticsImg from '@/public/wordanalytics.png';
@@ -35,28 +35,39 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Intern',
+    location: 'Defence Science and Technology Group, Australia',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+      'I interned with the small satellites team, working on day-to-day operations and mission planning. I was exposed to various \
+    parts of the software lifecycle and development methodology and had the oppourtunity to develop and integrate automation tools to assist mission planning.',
+    icon: React.createElement(CgWorkAlt),
+    date: '2018',
+  },
+  {
+    title: 'Bachelor of Engineering (Mechanical)',
+    location: 'University of Adelaide, Australia',
+    description: '',
     icon: React.createElement(LuGraduationCap),
     date: '2019',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    title: 'Mechanical Engineer',
+    location: 'Adelaide, Australia',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
-    icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+      'I worked as a mechanical engineer at Babcock Australasia in the Collins sustainment team for 2 years, specialising in design and configuration. In addition to be involved in \
+      engineering activities for the sustainment of mechanical subsystems, I was also involved in process and configuration improvements by integrating enterprise software with self-developed systems for engineers to be able to efficiently and accurately update any \
+      configuration data with one source of truth.',
+    icon: React.createElement(TbSubmarine),
+    date: '2019 - June 2022',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Graduate Diploma of Computer Science',
+    location: 'University of Melbourne',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2021 - present',
+      'After having spent a considerable amount of time programming as a hobby, I realised my passion for programming and decided to undertake a specialisation in Computer Science to provide me with the strong fundamental background needed to support my \
+      future endeavours in software engineering. I undertook courses in data structures and algorithms, Machine Learning and Artifical Intelligence amongst many others.',
+    icon: React.createElement(LuGraduationCap),
+    date: 'June 2022 - June 2023',
   },
 ] as const;
 

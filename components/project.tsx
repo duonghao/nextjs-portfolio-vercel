@@ -6,7 +6,7 @@ import Image from 'next/image';
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 
-type projectProps = (typeof projectsData)[0];
+type projectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,

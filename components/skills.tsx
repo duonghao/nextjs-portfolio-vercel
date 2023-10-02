@@ -35,7 +35,7 @@ export default function Skills() {
           return (
             <motion.li
               key={index}
-              className="bg-white border-black/10 rounded-xl px-5 py-3"
+              className="bg-white borderBlack rounded-xl px-5 py-3"
               variants={fadeInAnimationVariants}
               initial="initial"
               whileInView="animate"

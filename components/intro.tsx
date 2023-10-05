@@ -28,7 +28,7 @@ export default function Intro() {
             transition={{ type: 'tween', duration: '0.25' }}
           >
             <Image
-              src="/hao_portrait.jpg"
+              src="/haos_portrait.png"
               alt="Hao Portrait"
               width="192"
               height="192"

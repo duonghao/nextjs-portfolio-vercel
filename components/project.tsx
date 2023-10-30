@@ -48,15 +48,13 @@ export default function Project({
             ))}
           </ul>
         </div>
-        <Image
-          src={imageUrl}
-          alt={`${title} project I worked on`}
-          quality={95}
+        <div
           className="
           absolute 
-          top-8 
-          -right-40 
-          w-[28.25rem] 
+          top-0
+          -right-20 
+          w-[28.25rem]
+          h-full
           rounded-t-lg 
           shadow-2xl 
           group-even:right-[initial] 
@@ -71,8 +69,16 @@ export default function Project({
           transition
           hidden
           sm:block
-        "
-        ></Image>
+          "
+        >
+          <Image
+            src={imageUrl}
+            alt={`${title} project I worked on`}
+            quality={95}
+            fill={true}
+            objectFit="contain"
+          ></Image>
+        </div>
       </article>
     </motion.div>
   );

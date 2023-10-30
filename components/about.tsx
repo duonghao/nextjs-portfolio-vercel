@@ -41,9 +41,9 @@ export default function About() {
         and photography. Feel free to check out some of stories and pictures in
         my blog. I also enjoy{' '}
         <span className="font-medium">learning new things</span>. I am currently
-        learning <span className="font-medium">Japanese</span> and aim to
-        achieve N3 on the Japanese Language Proficiency Test by the end of this
-        year.
+        learning <span className="font-medium">Japanese</span> with an aim to
+        achieve at least N3 on the Japanese Language Proficiency Test by the end
+        of this year.
       </p>
     </motion.section>
   );

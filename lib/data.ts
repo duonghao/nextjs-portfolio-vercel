@@ -2,8 +2,10 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
 import { TbSubmarine } from 'react-icons/tb';
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
+
+import spottrApp from '@/public/Spottr.png';
+import hydrateApp from '@/public/Hydrate.png';
+import blog from '@/public/Blog.png';
 
 export const links = [
   {
@@ -74,17 +76,24 @@ export const projectsData = [
   {
     title: 'Spottr',
     description:
-      'An iOS workout tracking app designed for intermediate and professional gym goers to seamlessly record workouts \
+      'An iOS workout tracking app designed for intermediate and professional gym goers to record workouts \
       and simplify progress tracking.',
-    tags: ['iOS', 'Swift', 'SwiftUI'],
-    imageUrl: corpcommentImg,
+    tags: ['iOS', 'Swift', 'SwiftUI', 'CoreData'],
+    imageUrl: spottrApp,
   },
   {
     title: 'Blog',
     description:
-      'A personal blog that showcases my travels, photography and life in general.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Headless CMS'],
-    imageUrl: rmtdevImg,
+      'A personal blog that showcases my travels, photography, life and learnings.',
+    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'MDX'],
+    imageUrl: blog,
+  },
+  {
+    title: 'Hydrate',
+    description:
+      'An iOS water consumption tracking app to remind you that hydration is key.',
+    tags: ['iOS', 'Swift', 'SwiftUI', 'SwiftData'],
+    imageUrl: hydrateApp,
   },
 ] as const;
 
